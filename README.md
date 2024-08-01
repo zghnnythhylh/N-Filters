@@ -7,4 +7,8 @@
 
 订阅URL
 
-[https://raw.githubusercontent.com/zghnnythhylh/N-Filters/main/N%20Filters.txt](订阅URL)
+[https://raw.githubusercontent.com/zghnnythhylh/N-Filters/main/N%20Filters.txt](订阅URL1)
+
+或
+
+[https://gitee.com/study-ly137/n-filters/raw/master/N%20Filters.txt](订阅URL2)
