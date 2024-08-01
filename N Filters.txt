@@ -3,7 +3,7 @@
 !This rule applies to AdGuard's user filter, uBlock Origin's custom static rules......
 !There may be some grammatical errors.
 !This rule blocks ads and websites that may contain malware and other potentially harmful content.
-!For each update, you need to delete the original rules first, and then import them to get the update https://join.skype.com/wGtdELdLiBKk
+!For each update, you need to delete the original rules first.
 !This rule is not malicious for xxx.
 !This rule may break the design of some websites.
 !The following rules block ads.
