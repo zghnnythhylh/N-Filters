@@ -1,4 +1,4 @@
-!N Filters#2024-08-01
+!N Filters#2024-08-02
 !This release contains important quality fixes.
 !This rule applies to AdGuard's user filter, uBlock Origin's custom static rules......
 !There may be some grammatical errors.
@@ -467,7 +467,6 @@ zy.21cnjy.com###wrap > div.main.container:last-child > aside.sidebar:last-child 
 ||www.93pojie.com^$document,redirect=noopframe
 ||www.aichunjing.com^$document,redirect=noopframe
 ||www.appinn.com^$document,redirect=noopframe
-||www.cnblogs.com^$document,redirect=noopframe
 ||www.cr173.com^$document,redirect=noopframe
 ||www.crsky.com^$document,redirect=noopframe
 ||www.dayanzai.me^$document,redirect=noopframe
@@ -614,6 +613,7 @@ zy.21cnjy.com###wrap > div.main.container:last-child > aside.sidebar:last-child 
 ||www.twitterflightschool.com^$document,redirect=noopframe
 !Release.
 @@||docs.python.org^$document
+@@||www.cnblogs.com^$document
 @@||www.mozilla.org^$document
 @@||www.huorong.cn^$document
 @@||microsoftedge.microsoft.com^$document
