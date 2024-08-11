@@ -1,4 +1,4 @@
-!N Filters#2024-08-02
+!N Filters#2024-08-11
 !This release contains important quality fixes.
 !This rule applies to AdGuard's user filter, uBlock Origin's custom static rules......
 !There may be some grammatical errors.
@@ -6,8 +6,12 @@
 !For each update, you need to delete the original rules first.
 !This rule is not malicious for xxx.
 !This rule may break the design of some websites.
+!
 !The following rules block ads.
 ##.b_ans
+###reco_list > div.rec-list:nth-child(2) > div.video-page-card-small:first-child
+###reco_list > div.rec-list:nth-child(2) > div.video-page-card-small:nth-child(14)
+###reco_list > div.rec-list:nth-child(2) > div.video-page-card-small:nth-child(18) > div.card-box
 //jhhkl.25ku.com/tmintnqqfa?kwr=GF9&vsw=B99&rw=3CEFCD9H&g1=B9ACGHIBAB&g2=BEEA9AB9CF&zhi=q22y1iCJiBOiBO555ig3G3IiglxviBOouj1qiBOpjvniBOA999IHFD&rq=C&hdf=AGB9EAF9IHIAB&row=AC&rwg=9&dfch=B&dg=ACAE6DDI&ofw=B&jsf=9G9D&dqg=AHEG6IBD&rdg=3G3IiNEiK9iHOiNFiKHiKHiNFiHHiHOiNDiKHiKJiNDiKMiJ9iNFiHOiI9iNDiKNiIKiNFiILiH9iNFiIFiK9iNGiIJiHDiNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiNOiKLiHLiNEiHEiHMiNHiKDiKIiNDiKHiHKiNHiKMiKMiNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiNOiKLiHLiNEiKIiKFiNEiI9iHLiNFiIGiKFiNFiHOiI9iNDiKNiIKiNFiILiH9iNFiIFiK9iNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiNFiICiHMiNDiKMiILiNFiIFiKIiNFiKCiIEiNOiKLiHLiNEiHJiJIiNDiKMiJ9iNIiJAiKJiNEiHHiJIiNIiIGiJOiNEiHEiKCiNCiH9iHB&sqr=A&dgw=oG9jEkmnFDImmCHE&dof=AIB96A9CB&dgg=AHEG6BAF9&ykg=iNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiBLiNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiBL3G3IiNEiK9iHOiNFiKHiKHiNFiHHiHO&hw=iNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHg3G3IiNEiK9iHOiNFiKHiKHiNFiHHiHO&qsq=a.OhH&rfw=9&dwg=hA6hA&obh=A&th=A&rha=Q.VUgYX-.&sldg=AA9BGG,AA9BG9,AA9BEG,AA999I,AAA99A,AA99AA&rth=9&swt=1$domain=u7u9.com
 //jhhkl.25ku.com/tmintnqqfa?kwr=GF9&vsw=B99&rw=3CEFCD9H&g1=B9ACGHIBAB&g2=BEEA9AB9CF&zhi=q22y1iCJiBOiBO555ig3G3IiglxviBOouj1qiBOpjvniBOA999IHFD&rq=C&hdf=AGB9EAF9IHIAB&row=AC&rwg=9&dfch=B&dg=ACAE6DDI&ofw=B&jsf=9G9D&dqg=AHEG6IBD&rdg=3G3IiNEiK9iHOiNFiKHiKHiNFiHHiHOiNDiKHiKJiNDiKMiJ9iNFiHOiI9iNDiKNiIKiNFiILiH9iNFiIFiK9iNGiIJiHDiNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiNOiKLiHLiNEiHEiHMiNHiKDiKIiNDiKHiHKiNHiKMiKMiNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiNOiKLiHLiNEiKIiKFiNEiI9iHLiNFiIGiKFiNFiHOiI9iNDiKNiIKiNFiILiH9iNFiIFiK9iNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiNFiICiHMiNDiKMiILiNFiIFiKIiNFiKCiIEiNOiKLiHLiNEiHJiJIiNDiKMiJ9iNIiJAiKJiNEiHHiJIiNIiIGiJOiNEiHEiKCiNCiH9iHB&sqr=A&dgw=oG9jEkmnFDImmCHE&dof=AIB96A9CB&dgg=AHEG6BAF9&ykg=iNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiBLiNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiBL3G3IiNEiK9iHOiNFiKHiKHiNFiHHiHO&hw=iNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHg3G3IiNEiK9iHOiNFiKHiKHiNFiHHiHO&qsq=a.OhH&rfw=9&dwg=hA6hA&obh=A&th=A&rha=Q.VUgYX-.&sldg=AA9BGG,AA9BG9,AA9BEG,AA999I,AAA99A,AA99AA&rth=9&swt=1$domain=u7u9.com
 123.sogou.com###app > div.wrap.gov-cotainer:nth-child(2)
@@ -66,30 +70,17 @@ baike.so.com###so-nav-container--first > ul > li.so-nav-container__item:nth-chil
 baike.so.com###so-nav-container--first > ul > li.so-nav-container__item:nth-child(6)
 baike.so.com##div.index-css:nth-child(6) > div.wrap:last-child > div.container > div.leftside:first-child > div.left-con
 bilibili.com###biliMainHeader > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.left-entry:first-child > li.v-popover-wrap.left-loc-entry:nth-child(9) > div > a.loc-entry.loc-moveclip
-bilibili.com###biliMainHeader > div.bili-header.fixed-header > div.bili-header__bar.mini-header > ul.left-entry:first-child > li.v-popover-wrap.left-loc-entry:nth-child(9) > div > a.loc-entry.loc-moveclip
-bilibili.com##.danmaku-box
-bilibili.com##.danmaku-box
-bilibili.com##.recommended-swipe, .grid-anchor,
-cn.bing.com###b_pole
-cn.bing.com###b_results > li.b_ans:nth-child(11)
-cn.bing.com###b_results > li.b_msg.b_canvas:nth-child(12)
-cn.bing.com###b-scopeListItem-bingpages
-cn.bing.com###crs_pane > li.tile_grp
-cn.bing.com###sa_rpane
-cn.bing.com###sa_rpane
-cn.bing.com###sa_zis_PN
-cn.bing.com###sb_fdb
-cn.bing.com###sb_fdb
-cn.bing.com##.b_ans
-cn.bing.com##.b_msg, .b_canvas,
-cn.bing.com##.b_underSearchbox
+bilibili.com##.danmaku-boxx
+bilibili.com##.recommended-swipe, .grid-anchor
+baidu.com###\35
+cn.bing.com##.b_rrsr
+cn.bing.com##.b_rs
+cn.bing.com##.tab-content
+cn.bing.com##.sa_rr
 cn.bing.com##.below_sbox
-cn.bing.com##.richrswrapper
-cn.bing.com##.richrswrapper > div
-cn.bing.com##.sa_as
 cn.bing.com##.vs
-cn.bing.com##.vs
-cn.bing.com##div.b_sideBleed:nth-of-type(3)
+cn.bing.com###sa_zis_PN
+cn.bing.com###b_context
 cybermap.kaspersky.com###header_main_button
 gaoji.2345.com###calendar > div.box_cnt.calendar.cale:nth-child(2) > h4:last-child > span:last-child > a.blue
 gaoji.2345.com###calendar_lunar > a
@@ -103,6 +94,7 @@ gaoji.2345.com##div:nth-child(3) > div.top:nth-child(2)
 geekdload.com##section.container:nth-child(7) > div.sidebar:last-child
 geekdload.com##section.container:nth-child(7) > div.sidebar:last-child
 gitee.com###__next > div.fixed.left-0.bottom-\[4\.5px\].z-\[106\]:nth-child(3) > a.block > img.my-0.mx-\[10px\].w-\[200px\]:first-child
+gitee.com##.mr-6, .h-full
 hao.360.com###astro
 hao.360.com###copyright
 hao.360.com###doc-main-bd
@@ -138,6 +130,9 @@ home.firefoxchina.cn###app > div > div.bg-white.py-3.text-sm.text-gray-500.heade
 home.firefoxchina.cn###app > div > div.theme:nth-child(2) > div.relative.py-3 > div.outside:last-child
 home.firefoxchina.cn###app > div > div.theme:nth-child(2) > div.relative.py-3 > div.wrapper.w-full.mx-auto:first-child
 https://jhhkl.25ku.com/jsnoo?kwr=FD9&vsw=AA9&rw=3FHEGEG9&g1=DACBHFDDHI&g2=A9HEF9HHDA&zhi=q22y1iCJiBOiBO555ig3G3IiglxviBOouj1qiBOpjvniBOA999IHFD&rq=C&rfw=9&hw=iNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHg3G3IiNEiK9iHOiNFiKHiKHiNFiHHiHO&dof=AIB96A9CB&obh=A&qsq=a.OhH&dgw=oG9jEkmnFDImmCHE&jsf=9G9D&dgg=AHEG6AIE9&jq=AigiNFiICiHMiNDiKMiILiNHiJOiKDiNFiIHiHN&rth=9&hdf=AGB9EAF9IHIAB&row=C&sqr=A&rdg=3G3IiNEiK9iHOiNFiKHiKHiNFiHHiHOiNDiKHiKJiNDiKMiJ9iNFiHOiI9iNDiKNiIKiNFiILiH9iNFiIFiK9iNGiIJiHDiNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiNOiKLiHLiNEiHEiHMiNHiKDiKIiNDiKHiHKiNHiKMiKMiNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiNOiKLiHLiNEiKIiKFiNEiI9iHLiNFiIGiKFiNFiHOiI9iNDiKNiIKiNFiILiH9iNFiIFiK9iNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiNFiICiHMiNDiKMiILiNFiIFiKIiNFiKCiIEiNOiKLiHLiNEiHJiJIiNDiKMiJ9iNIiJAiKJiNEiHHiJIiNIiIGiJOiNEiHEiKCiNCiH9iHB&ofw=B&dqg=AHEG6IBD&rha=Q.VUgYX-.&dwg=hA6hA&th=A&dfch=B&ykg=iNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiBLiNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiBL3G3IiNEiK9iHOiNFiKHiKHiNFiHHiHO&dg=EHC6GG9&sldg=AA9BGG,AA9BG9,AA9BEG,AA999I,AAA99A,AA99AA&rwg=9&swt=1$domain=u7u9.com
+https://img.lancdn.com/public/images/view/%E5%9D%9A%E6%9E%9C%E4%BA%91.png$domain=landiannews.com
+https://img.lancdn.com/public/images/view/%E9%98%BF%E9%87%8C%E4%BA%91-%E6%97%A5%E5%B8%B8%E6%B4%BB%E5%8A%A8-%E8%93%9D%E7%82%B9%E7%BD%91%E9%A6%96%E9%A1%B5-%E6%A8%AA%E5%B9%85-20240716.webp$domain=landiannews.com
+https://img.lancdn.com/public/images/view/%E9%98%BF%E9%87%8C%E4%BA%91-%E9%80%9A%E4%B9%89%E7%81%B5%E7%A0%81-%E8%93%9D%E7%82%B9%E7%BD%91-%E9%A6%96%E9%A1%B5%E6%A8%AA%E5%B9%85-20240716.webp$domain=landiannews.com
 https://jhhkl.25ku.com/jsnoo?kwr=FD9&vsw=AA9&rw=3FHEGEG9&g1=DACBHFDDHI&g2=A9HEF9HHDA&zhi=q22y1iCJiBOiBO555ig3G3IiglxviBOouj1qiBOpjvniBOA999IHFD&rq=C&rfw=9&hw=iNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHg3G3IiNEiK9iHOiNFiKHiKHiNFiHHiHO&dof=AIB96A9CB&obh=A&qsq=a.OhH&dgw=oG9jEkmnFDImmCHE&jsf=9G9D&dgg=AHEG6AIE9&jq=AigiNFiICiHMiNDiKMiILiNHiJOiKDiNFiIHiHN&rth=9&hdf=AGB9EAF9IHIAB&row=C&sqr=A&rdg=3G3IiNEiK9iHOiNFiKHiKHiNFiHHiHOiNDiKHiKJiNDiKMiJ9iNFiHOiI9iNDiKNiIKiNFiILiH9iNFiIFiK9iNGiIJiHDiNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiNOiKLiHLiNEiHEiHMiNHiKDiKIiNDiKHiHKiNHiKMiKMiNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiNOiKLiHLiNEiKIiKFiNEiI9iHLiNFiIGiKFiNFiHOiI9iNDiKNiIKiNFiILiH9iNFiIFiK9iNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiNFiICiHMiNDiKMiILiNFiIFiKIiNFiKCiIEiNOiKLiHLiNEiHJiJIiNDiKMiJ9iNIiJAiKJiNEiHHiJIiNIiIGiJOiNEiHEiKCiNCiH9iHB&ofw=B&dqg=AHEG6IBD&rha=Q.VUgYX-.&dwg=hA6hA&th=A&dfch=B&ykg=iNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiBLiNEiHEiJLiNHiKGiJOiNEiJDiJGiNFiHHiIHiNEiK9iHOiNFiKHiKHiNFiHHiHOiBL3G3IiNEiK9iHOiNFiKHiKHiNFiHHiHO&dg=EHC6GG9&sldg=AA9BGG,AA9BG9,AA9BEG,AA999I,AAA99A,AA99AA&rwg=9&swt=1$domain=u7u9.com
 iqiyi.com###intact_a7239469642bc165
 iqiyi.com###intact_a7239469642bc165 > div.cover:first-child
@@ -149,6 +144,8 @@ jxjyedu.org.cn##b:nth-child(3) > div.floatbox:last-child > div.close:first-child
 jxjyedu.org.cn##b:nth-child(3) > div.floatbox:last-child > div:last-child
 kan.znds.com##div.main.ccn:nth-child(5)
 lalal.ai##div.announce.announce--cn:nth-child(3)
+landiannews.com##.sidebar
+landiannews.com##footer.footer:nth-child(3) > div.footer-links.color-border:first-child
 m.baidu.com###page-hd > div.se-page-hd-content > div.se-head-tablink:last-child > div.se-tablink-scroll-wrapper.c-scroll-wrapper:first-child > div.se-tablink-scroll-touch:first-child > div.se-tab-lists.c-flexbox > a.se-tabitem:nth-child(4)
 m.baidu.com###page-hd > div.se-page-hd-content > div.se-head-tablink:last-child > div.se-tablink-scroll-wrapper.c-scroll-wrapper:first-child > div.se-tablink-scroll-touch:first-child > div.se-tab-lists.c-flexbox > a.se-tabitem:nth-child(4)
 m.baidu.com###page-relative
@@ -421,21 +418,26 @@ zh.safetydetectives.com##.unbind-data-href, .vendor-site-link,
 zh.safetydetectives.com##.vendor-btn
 zhihu.com###TopstoryContent > div.ListShortcut > div.Topstory-recommend > div.css-1fsnuue > div.Card.TopstoryItem.TopstoryItem-isRecommend:nth-child(3) > div.Feed > div > div > div.ContentItem.AnswerItem
 zy.21cnjy.com###wrap > div.main.container:last-child > aside.sidebar:last-child > div.widget.widget_image_ad:first-child
-!The following rules block websites that may contain malware and other potentially harmful content.
-||163.
-||360.
-||52pjb.net^$document,redirect=noopframe
+!The following rules block ads.
+||52pojie.net^$document,redirect=noopframe
 ||62c33227459003d85c4a2ac3ea71b879.zunjishoufa.quanfeng.net^$document,redirect=noopframe
 ||app.2345.com^$document,redirect=noopframe
-||baidu.
 ||cms.youtube.com^$document,redirect=noopframe
 ||cmwtat.cloudmoe.com^$document,redirect=noopframe
 ||cmwtat.cloudmoe.com^$document,redirect=noopframe
+||down.gamersky.com^$document,redirect=noopframe
+||www.duote.com^$document,redirect=noopframe
+||www.downxia.com^$document,redirect=noopframe
 ||d.winwin7xz.com^$document,redirect=noopframe
 ||d.winwin7xz.com^$document,redirect=noopframe
 ||dabaicai.com^$document,redirect=noopframe
 ||ddkk.tv^$document
+||flash.
 ||flash.cn^$document
+||fun.
+||game.
+||games.
+||games.jlcykj.c^$document,redirect=noopframe
 ||ghxi.com^$document,redirect=noopframe
 ||greenhubtx.ga^$document
 ||greenhubtx.ga^$document,redirect=noopframe
@@ -445,14 +447,15 @@ zy.21cnjy.com###wrap > div.main.container:last-child > aside.sidebar:last-child 
 ||ixkw.cc2^$document
 ||jhhkl.25ku.com^$document,redirect=noopframe
 ||jifen.2345.com^$document,redirect=noopframe
+||www.jokerdown.com^$document,redirect=noopframe
 ||kan.znds.com^$document
 ||lxapk.com^$document,redirect=noopframe
+||macwk.cn^$document,redirect=noopframe
 ||mydown.yesky.com^$document,redirect=noopframe
 ||ouletv.cc^$document
 ||pic.2345.cc^$document,redirect=noopframe
 ||pinyin.2345.cc^$document,redirect=noopframe
 ||pojiejd.com^$document,redirect=noopframe
-||qq.
 ||rgbcg.com^$document,redirect=noopframe
 ||safe.2345.cc^$document,redirect=noopframe
 ||sd.zjdashi.com^$document,redirect=noopframe
@@ -460,20 +463,25 @@ zy.21cnjy.com###wrap > div.main.container:last-child > aside.sidebar:last-child 
 ||tmioe.com^$document,redirect=noopframe
 ||uqidong.com^$document,redirect=noopframe
 ||v2rayhome.github.io^$document,redirect=noopframe
+||vip.
+||wang.
 ||windterm.org^$document,redirect=noopframe
 ||windterm.org^$document,redirect=noopframe
 ||www.01xitong.com^$document,redirect=noopframe
-||www.52pojie.cn^$document,redirect=noopframe
+||www.32r.com^$document,redirect=noopframe
 ||www.93pojie.com^$document,redirect=noopframe
 ||www.aichunjing.com^$document,redirect=noopframe
 ||www.appinn.com^$document,redirect=noopframe
 ||www.cr173.com^$document,redirect=noopframe
 ||www.crsky.com^$document,redirect=noopframe
 ||www.dayanzai.me^$document,redirect=noopframe
+||www.downxia.com^$document,redirect=noopframe
 ||www.ddooo.com^$document,redirect=noopframe
 ||www.downcc.com^$document,redirect=noopframe
 ||www.downkuai.com^$document,redirect=noopframe
 ||www.downza.cn^$document,redirect=noopframe
+||www.duote.com^$document,redirect=noopframe
+||wenku.
 ||www.fenxm.com^$document,redirect=noopframe
 ||www.fenxm.com^$document,redirect=noopframe
 ||www.geekdload.com^$document,redirect=noopframe
@@ -489,8 +497,6 @@ zy.21cnjy.com###wrap > div.main.container:last-child > aside.sidebar:last-child 
 ||www.jb51.net^$document,redirect=noopframe
 ||www.jipinsoft.com^$document,redirect=noopframe
 ||www.kanjuxc.com^$document
-||www.landiannews.com^$document
-||www.landiannews.com^$document,redirect=noopframe
 ||www.lanzous.com^$document,redirect=noopframe
 ||www.laoyouxitong.cn^$document,redirect=noopframe
 ||www.macdo.cn^$document,redirect=noopframe
@@ -527,97 +533,107 @@ zy.21cnjy.com###wrap > div.main.container:last-child > aside.sidebar:last-child 
 ||www.xitongzhijia.net^$document,redirect=noopframe
 ||www.xtxz.com^$document,redirect=noopframe
 ||www.xmpojie.com^$document,redirect=noopframe
+||www.xz7.com^$document,redirect=noopframe
 ||www.yhdmapp.com^$document
 ||www.yishimei.cn^$document,redirect=noopframe
 ||www.ypojie.com^$document,redirect=noopframe
 ||www.yue365.com^$document
 ||www.yutu.cn^$document,redirect=noopframe
 ||www.zhuangjiba.com^$document,redirect=noopframe
+||xiaoyouxi.
 ||xiaobingxitong.com^$document,redirect=noopframe
 ||xiazai.zol.com.cn^$document,redirect=noopframe
 ||xitmi.com^$document,redirect=noopframe
 ||xitongtiandi.net^$document,redirect=noopframe
+||yhdmapp.
 ||youqian.360.cn^$document,redirect=noopframe
 ||ypojie.com^$document,redirect=noopframe
 ||zs.yes115.com^$document,redirect=noopframe
 !The following rules block other websites.
-||www.kuaishou.com^$document,redirect=noopframe
-||www.youxiguancha.com^$document,redirect=noopframe
-||www.mamecn.com^$document,redirect=noopframe
-||www.douyin.com^$document,redirect=noopframe
 ||ainio.cn^$document,redirect=noopframe
-||www.fun.tv^$document,redirect=noopframe
-||www.1905.com^$document,redirect=noopframe
-||vip.1905.com^$document,redirect=noopframe
-||www.4399.com^$document,redirect=noopframe
-||www.18183.com^$document,redirect=noopframe
-||www.17yoo.cn^$document,redirect=noopframe
-||xiaoyouxi.360.cn^$document,redirect=noopframe
-||fun.360.cn^$document,redirect=noopframe
-||lewan.baidu.com^$document,redirect=noopframe
-||www.7k7k.com^$document,redirect=noopframe
+||cg.163.com^$document,redirect=noopframe
+||cms.youtube.com^$document,redirect=noopframe
+||dydytt.net^$document,redirect=noopframe
+||flash.cn^$document
 ||flash.cn^$document,redirect=noopframe
-||www.u7u9.com##div^$document,redirect=noopframe
-||qqgame.qq.com^$document,redirect=noopframe
+||fun.360.cn^$document,redirect=noopframe
+||greenhubtx.ga^$document
+||indienova.com^$document,redirect=noopframe
+||lewan.baidu.com^$document,redirect=noopframe
 ||m.ali213.net^$document,redirect=noopframe
+||mc.163.com^$document,redirect=noopframe
+||music.163.com^$document,redirect=noopframe
+||music.apple.com^$document
 ||mzh.moegirl.org.cn^$document,redirect=noopframe
 ||party.163.com^$document,redirect=noopframe
-||cg.163.com^$document,redirect=noopframe
-||www.minecraft.net^$document
-||mc.163.com^$document,redirect=noopframe
-||ys.mihoyo.com^$document,redirect=noopframe
-||ymzx.qq.com^$document,redirect=noopframe
 ||pvp.qq.com^$document,redirect=noopframe
-||www.taptap.cn^$document,redirect=noopframe
-||indienova.com^$document,redirect=noopframe
-||www.pvz.moe^$document,redirect=noopframe
-||www.bilibili.com^$document,redirect=noopframe
-||tieba.baidu.com^$document,redirect=noopframe
-||www.fandom.com^$document,redirect=noopframe
-||zh.fandom.com^$document,redirect=noopframe
-||www.baidu.com^$document,redirect=noopframe
-||www.so.com^$document,redirect=noopframe
-||y.qq.com^$document,redirect=noopframe
-||music.apple.com^$document
-||www.ea.com^$document
-||music.163.com^$document,redirect=noopframe
-||www.ccw.site^$document,redirect=noopframe
-||www.kuaikanmanhua.com^$document,redirect=noopframe
-||store.steampowered.com^$document
+||qqgame.qq.com^$document,redirect=noopframe
 ||steampp.net^$document
-||www.tbtool.cn^$document,redirect=noopframe
-||www.msn.cn^$document,redirect=noopframe
-||www.tmall.com^$document,redirect=noopframe
+||store.steampowered.com^$document
 ||tb.alicdn.com^$document,redirect=noopframe
-||www.taobao.com^$document,redirect=noopframe
-||www.temu.com^$document
-||www.pinduoduo.com^$document,redirect=noopframe
-||www.360kuai.com^$document,redirect=noopframe
-||www.zhihu.com^$document,redirect=noopframe
-||www.qq.com^$document,redirect=noopframe
-||www.dygoda.com^$document,redirect=noopframe
-||dydytt.net^$document,redirect=noopframe
-||www.dyttcn.com^$document,redirect=noopframe
-||www.wan1234.com^$document,redirect=noopframe
-||www.lonelystar.org^$document
-||greenhubtx.ga^$document
-||www.lanzous.com^$document,redirect=noopframe
-||flash.cn^$document
+||tieba.baidu.com^$document,redirect=noopframe
+||vip.1905.com^$document,redirect=noopframe
 ||windterm.org^$document,redirect=noopframe
-||www.uqitong.com^$document,redirect=noopframe
+||www.17yoo.cn^$document,redirect=noopframe
+||www.18183.com^$document,redirect=noopframe
+||www.1905.com^$document,redirect=noopframe
+||www.360kuai.com^$document,redirect=noopframe
+||www.4399.com^$document,redirect=noopframe
+||www.7k7k.com^$document,redirect=noopframe
+||www.baidu.com^$document,redirect=noopframe
+||www.bilibili.com^$document,redirect=noopframe
+||www.ccw.site^$document,redirect=noopframe
+||www.douyin.com^$document,redirect=noopframe
+||www.dygoda.com^$document,redirect=noopframe
+||www.dyttcn.com^$document,redirect=noopframe
+||www.ea.com^$document
+||www.fandom.com^$document,redirect=noopframe
+||www.fun.tv^$document,redirect=noopframe
+||www.kuaikanmanhua.com^$document,redirect=noopframe
+||www.kuaishou.com^$document,redirect=noopframe
+||www.lanzous.com^$document,redirect=noopframe
+||www.lonelystar.org^$document
+||www.mamecn.com^$document,redirect=noopframe
+||www.minecraft.net^$document
+||www.msn.cn^$document,redirect=noopframe
 ||www.ofice.com^$document,redirect=noopframe
-||www.tiktok.com^$document
-||www.x.com^$document,redirect=noopframe
+||www.pinduoduo.com^$document,redirect=noopframe
+||www.pvz.moe^$document,redirect=noopframe
+||www.qq.com^$document,redirect=noopframe
+||www.so.com^$document,redirect=noopframe
+||www.taobao.com^$document,redirect=noopframe
+||www.taptap.cn^$document,redirect=noopframe
+||www.tbtool.cn^$document,redirect=noopframe
+||www.temu.com^$document
 ||www.temu.com^$document,redirect=noopframe
-||cms.youtube.com^$document,redirect=noopframe
+||www.tiktok.com^$document
+||www.tmall.com^$document,redirect=noopframe
 ||www.twitterflightschool.com^$document,redirect=noopframe
+||www.u7u9.com$document,redirect=noopframe
+||www.uqitong.com^$document,redirect=noopframe
+||www.wan1234.com^$document,redirect=noopframe
+||www.x.com^$document,redirect=noopframe
+||www.youxiguancha.com^$document,redirect=noopframe
+||www.zhihu.com^$document,redirect=noopframe
+||xiaoyouxi.360.cn^$document,redirect=noopframe
+||y.qq.com^$document,redirect=noopframe
+||ymzx.qq.com^$document,redirect=noopframe
+||ys.mihoyo.com^$document,redirect=noopframe
+||zh.fandom.com^$document,redirect=noopframe
 !Release.
-@@||docs.python.org^$document
-@@||www.cnblogs.com^$document
-@@||www.mozilla.org^$document
-@@||www.huorong.cn^$document
-@@||microsoftedge.microsoft.com^$document
 @@||addons.mozilla.org^$document
+@@||atelier-anchor.com^$document
 @@||chromewebstore.google.com^$document
-@@||www.openeuler.org^$document
+@@||code.visualstudio.com^$document
+@@||www.cnblogs.com^$document
+@@||docs.hotpe.top^$document
+@@||docs.python.org^$document
 @@||git-scm.com^$document
+@@||microsoftedge.microsoft.com^$document
+@@||msdn.itellyou.cn^$document
+@@||www.hnzjgl.gov.cn^$document
+@@||www.huorong.cn^$document
+@@||www.mozilla.org^$document
+@@||www.openeuler.org^$document
+@@||www.python.org^$document
+@@||www.rust-lang.org^$document
