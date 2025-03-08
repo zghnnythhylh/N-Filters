@@ -1,3 +1,4 @@
+! Redirect: https://gitee.com/study-ly137/smiling-at-the-ad/raw/master/Smiling%20at%20the%20AD-E1.txt
 !N Filters#2024-08-26
 !The following rules block ads.
 ###oml2d-stage
